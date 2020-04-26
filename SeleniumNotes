@@ -1,0 +1,68 @@
+Web Application => Any application which can be accessed using web browser over web 
+
+	Functional Testing
+		=> Testing the functaionalities/behaviour of the web application
+		=> Web Elementts:
+				Web Pages => Web Forms => Checkbox, Radio buttons, Text fields, Drop downs, Buttons, Links , Images
+							=> 	Cookies testing, Browser Cache testing , Browser History
+				
+				Functional Testing of Web Applications Involves following validations:	
+						Text Field Validations
+						Date field validations
+						Select Box Validations
+						Radio Buttons Validations
+						Dropdown Validations
+						Check box Validations
+						Default values
+						Buttons validations
+						Test Outgoing links
+						Test Internal links
+						Test Links jumping on the same page
+						Test for broken links
+			=> Compatibility Testing
+					=> Testing web application functionality on various OS-browser combinations
+			
+
+	Non Functional 
+		=> Usability Testing
+				Navigation Testing
+				Keyboard only testing
+				Content Testing
+		=> Performance Testing
+				Load Testing
+				Stress Testing
+		=> Security Testing
+		
+			
+			
+	Selenium => Is a functional Testing tool used to test Web applications
+						Functional Testing tool
+						For Testing Web Applications
+						Comapatibility Testing(Cross browser testing)
+						Open Source
+						Is not a non functional testing tool
+		
+		Manual steps needed to test registration functionality:
+				Open browser
+				Open website inside browser=> type url and press enter
+				Check for firstname field and enter value in it => textbox
+				Check for Surname field and enter value in it => Textbox
+				Check for Mobilenumber or emailid field and enter value in it => Textbox
+				Check for password field and enter value in it => Textbox
+				Check for repeat password field and enter value in it => Textbox
+				select day from day dropdown => Dropdown
+				select month from month dropdown => Dropdown
+				select year from year dropdown => Dropdown
+				select gender from gender radio buttions => Radiobuttons
+				Click Signup buttons=>Button
+				Enter code from email in code verification field => Textfield
+				and click submit => Button
+				Verify that user is shown "Registration successfull message"=> 
+
+
+
+
+				
+				
+			
+		
