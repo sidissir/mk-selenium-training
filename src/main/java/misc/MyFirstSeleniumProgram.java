@@ -12,21 +12,31 @@ public class MyFirstSeleniumProgram {
 
 		System.out.println("Started");
 		System.setProperty("webdriver.chrome.driver", "conf/browserdrivers/chromedriver.exe");
-
+		
+		//New chrome browser window is opned
 		WebDriver webDriver = new ChromeDriver();
 
+		//This will maximize window size
 		webDriver.manage().window().maximize();
 
+		//url is loaded in the browser
 		webDriver.get("https://www.facebook.com/");
-
+		
+		// We are reading title of page
 		String pageTitle = webDriver.getTitle();
+		
+		//Printing title to console
 		System.out.println("Page Title is :" + pageTitle);
 		
+		// Locating First Name Element
 		WebElement firstnameEle = webDriver.findElement(By.name("firstname"));
+		
+		// Entering values into first name field
 		firstnameEle.sendKeys("fname1");
 		
-		
+		//Locating last name field
 		WebElement lastnameEle = webDriver.findElement(By.name("lastname"));
+		// Enetering values into last name field
 		lastnameEle.sendKeys("lname1");
 
 		WebElement emailEle = webDriver.findElement(By.name("reg_email__"));
